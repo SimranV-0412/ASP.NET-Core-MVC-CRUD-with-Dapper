@@ -1,0 +1,30 @@
+﻿@model Person
+
+<h3>Add Person</h3>
+<a asp-area="" asp-controller="Home" asp-action="DisplayAllPerson" class="btn btn-info" style="margin:10px;">Display All Persons List</a>
+
+<form asp-action="Add">
+    <div class="form-group">
+        <label asp-for="FullName">Full Name</label>
+        <input asp-for="FullName" type="text" class="form-control">
+        <span asp-validation-for="FullName"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email">Email</label>
+        <input asp-for="Email" type="email" class="form-control">
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Address">Address</label>
+        <input asp-for="Address" type="text" class="form-control">
+        <span asp-validation-for="Address"></span>
+    </div>
+    @if (TempData["msg"] != null)
+    {
+        <div class="mb-3">
+            @TempData["msg"]
+        </div>
+    }
+    
+    <button type="submit" class="btn btn-success" style="margin:10px;">Save</button>
+</form>

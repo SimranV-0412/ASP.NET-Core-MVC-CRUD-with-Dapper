@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Person>
+<h3>Persons List <a asp-area="" asp-controller="Home" asp-action="Add" class="btn btn-success" style="margin:10px;">Add Person Detail</a></h3>
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var person in Model)
+            {
+                <tr>
+                    <td>@person.Id</td>
+                    <td>@person.FullName</td>
+                    <td>@person.Email</td>
+                    <td>@person.Address</td>
+                    <td>
+                        <a asp-area="" asp-controller="Home" asp-action="Edit" asp-route-id="@person.Id" class="btn btn-info">Edit</a>
+                        <a asp-area="" asp-controller="Home" asp-action="Delete" asp-route-id="@person.Id" onclick="return window.confirm('Are you sure?')" class="btn btn-info">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

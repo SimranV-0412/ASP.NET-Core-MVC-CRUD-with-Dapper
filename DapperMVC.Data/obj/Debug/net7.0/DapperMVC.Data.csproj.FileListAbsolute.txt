@@ -1,0 +1,12 @@
+D:\DapperMVC.Data\bin\Debug\net7.0\DapperMVC.Data.deps.json
+D:\DapperMVC.Data\bin\Debug\net7.0\DapperMVC.Data.dll
+D:\DapperMVC.Data\bin\Debug\net7.0\DapperMVC.Data.pdb
+D:\DapperMVC.Data\obj\Debug\net7.0\DapperMVC.Data.csproj.AssemblyReference.cache
+D:\DapperMVC.Data\obj\Debug\net7.0\DapperMVC.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\DapperMVC.Data\obj\Debug\net7.0\DapperMVC.Data.AssemblyInfoInputs.cache
+D:\DapperMVC.Data\obj\Debug\net7.0\DapperMVC.Data.AssemblyInfo.cs
+D:\DapperMVC.Data\obj\Debug\net7.0\DapperMVC.Data.csproj.CoreCompileInputs.cache
+D:\DapperMVC.Data\obj\Debug\net7.0\DapperMVC.Data.dll
+D:\DapperMVC.Data\obj\Debug\net7.0\refint\DapperMVC.Data.dll
+D:\DapperMVC.Data\obj\Debug\net7.0\DapperMVC.Data.pdb
+D:\DapperMVC.Data\obj\Debug\net7.0\ref\DapperMVC.Data.dll
